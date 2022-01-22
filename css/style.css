@@ -43,3 +43,24 @@
     background-image: url('../assets/angular.png');
     background-size: cover;
 }
+
+.flask {
+    background-image: url('../assets/flask.png');
+    background-size: contain;
+    color: black;
+    background-position-x: 18px;
+}
+
+.git {
+    background-image: url('../assets/git.png');
+    background-size: cover;
+}
+
+.mongodb {
+    background-image: url('../assets/mongo.png');
+    background-size: contain;
+}
+
+.company-name {
+    font-size: 2rem;
+}
