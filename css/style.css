@@ -92,5 +92,16 @@
 }
 
 .company-name {
-    font-size: 2rem;
+    font-size: 1.5rem;
+}
+
+.card-shadow {
+    border: solid 1px gray;
+    box-shadow: 5px 10px 18px #888888;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.body-container {
+    margin-bottom: 20px;
 }
