@@ -38,7 +38,6 @@
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    /* border: solid 1px black; */
     margin-top: 5px;
 }
 
@@ -104,4 +103,31 @@
 
 .body-container {
     margin-bottom: 20px;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.linkedin {
+    background-image: url('../assets/linkedin.png');
+    background-size: contain;
+}
+
+.medium {
+    background-image: url('../assets/medium.png');
+    background-size: contain;
+}
+
+.mail {
+    background-image: url('../assets/mail.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.phone {
+    background-image: url('../assets/phone.png');
+    background-size: cover;
 }
