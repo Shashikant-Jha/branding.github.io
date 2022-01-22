@@ -1,0 +1,45 @@
+.separator-bar-green {
+    width: 100%;
+    background-color: cadetblue;
+    height: 10px;
+}
+
+.circular-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    /* border: solid 1px black; */
+    margin-top: 5px;
+}
+
+.python {
+    background-image: url('../assets/python.png');
+    background-size: cover;
+}
+
+.dialogflow {
+    background-image: url('../assets/dialogflow.png');
+    background-size: cover;
+}
+
+.javascript {
+    background-image: url('../assets/JS.png');
+    background-size: cover;
+}
+
+.docker {
+    background-image: url('../assets/docker.png');
+    background-size: cover;
+    background-position-y: 16px;
+    background-repeat: no-repeat;
+}
+
+.nodejs {
+    background-image: url('../assets/node.png');
+    background-size: cover;
+}
+
+.angular {
+    background-image: url('../assets/angular.png');
+    background-size: cover;
+}
