@@ -542,14 +542,21 @@
         <!-- Contact and Social ends here -->
 
     </div>
-    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <!-- <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
     <df-messenger
     chat-icon="https://shashikant-jha.github.io/branding.github.io/assets/dog.svg"
     intent="WELCOME"
     chat-title="Whoosh"
     agent-id="90bc8a3e-7d5b-4b14-8784-1c007e4f8aaa"
     language-code="en"
-    ></df-messenger>
+    ></df-messenger> -->
+
+    <script SameSite="None; Secure" src="https://cdn.landbot.io/landbot-3/landbot-3.0.0.js"></script>
+<script>
+  var myLandbot = new Landbot.Livechat({
+    configUrl: 'https://chats.landbot.io/v3/H-1110311-5FNYFT7MRS4ORM4F/index.json',
+  });
+</script>
 </body>
 <script src="./js/bootstrap.bundle.min.js"></script>
 <script src="./js/messenger.js"></script>
